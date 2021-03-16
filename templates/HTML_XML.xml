@@ -1,0 +1,7 @@
+<templateSet group="HTML/XML">
+  <template name="col100" value="&lt;tr&gt;&#10;    &lt;td colspan=&quot;100%&quot; class=&quot;text-center&quot;&gt;&#10;        $END$&#10;    &lt;/td&gt;&#10;&lt;/tr&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
