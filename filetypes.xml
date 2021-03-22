@@ -10,8 +10,8 @@
       <mapping pattern="tester" type="PLAIN_TEXT" />
       <mapping pattern="99cALH2H0Xl62VuzxozXjYFzmst78CSGpL93osG6" type="PLAIN_TEXT" />
       <mapping pattern="2tDvBEboZpjTPeVmp4crJ7N7bqPRnLQ1nwI9E8wr" type="PLAIN_TEXT" />
-      <mapping pattern="ForwardRequestDestinationsController.php" type="PLAIN_TEXT" />
       <mapping pattern="config" type="PLAIN_TEXT" />
+      <mapping pattern="ForwardRequestDestinationsController.php" type="PLAIN_TEXT" />
       <mapping pattern=".htakses" type="PLAIN_TEXT" />
       <mapping pattern="fucking_file" type="PLAIN_TEXT" />
       <mapping pattern="index_articles.blade.php" type="PLAIN_TEXT" />
