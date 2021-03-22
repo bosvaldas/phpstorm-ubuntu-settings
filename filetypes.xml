@@ -1,23 +1,21 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping ext="gradle.kts" type="Kotlin" />
-      <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="test" type="PLAIN_TEXT" />
-      <mapping pattern="2tDvBEboZpjTPeVmp4crJ7N7bqPRnLQ1nwI9E8wr" type="PLAIN_TEXT" />
       <mapping pattern="BoxItemType" type="PLAIN_TEXT" />
-      <mapping pattern="config" type="PLAIN_TEXT" />
-      <mapping pattern="ForwardRequestDestinationsController.php" type="PLAIN_TEXT" />
       <mapping pattern="CurrencySwitchController.php" type="PLAIN_TEXT" />
-      <mapping pattern=".htakses" type="PLAIN_TEXT" />
       <mapping pattern="AddThisPlugin" type="PLAIN_TEXT" />
-      <mapping pattern="fucking_file" type="PLAIN_TEXT" />
       <mapping pattern="testass" type="PLAIN_TEXT" />
       <mapping pattern="socialPlugin.blade.php" type="PLAIN_TEXT" />
-      <mapping pattern="index_articles.blade.php" type="PLAIN_TEXT" />
-      <mapping pattern="bybiasliosas" type="PLAIN_TEXT" />
       <mapping pattern="tester" type="PLAIN_TEXT" />
       <mapping pattern="99cALH2H0Xl62VuzxozXjYFzmst78CSGpL93osG6" type="PLAIN_TEXT" />
+      <mapping pattern="2tDvBEboZpjTPeVmp4crJ7N7bqPRnLQ1nwI9E8wr" type="PLAIN_TEXT" />
+      <mapping pattern="ForwardRequestDestinationsController.php" type="PLAIN_TEXT" />
+      <mapping pattern="config" type="PLAIN_TEXT" />
+      <mapping pattern=".htakses" type="PLAIN_TEXT" />
+      <mapping pattern="fucking_file" type="PLAIN_TEXT" />
+      <mapping pattern="index_articles.blade.php" type="PLAIN_TEXT" />
+      <mapping pattern="bybiasliosas" type="PLAIN_TEXT" />
       <mapping ext="stub" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
@@ -34,6 +32,8 @@
       <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="pl" type="Perl5 script" />
     </extensionMap>
   </component>
