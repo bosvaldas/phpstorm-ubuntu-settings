@@ -20,9 +20,6 @@
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
-  <action id="CloseAllUnmodifiedEditors">
-    <keyboard-shortcut first-keystroke="shift t" />
-  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="alt t" />
