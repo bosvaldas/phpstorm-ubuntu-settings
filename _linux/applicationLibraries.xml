@@ -33,5 +33,18 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="leaflet" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_leaflet@1.7.1_dist_leaflet.css" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_leaflet@1.7.1_dist_leaflet.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_leaflet@1.7.1_dist_leaflet.css" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_leaflet@1.7.1_dist_leaflet.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
   </component>
 </application>
