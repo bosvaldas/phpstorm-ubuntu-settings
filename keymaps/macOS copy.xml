@@ -96,6 +96,9 @@
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="meta alt o" />
   </action>
+  <action id="PhpListenDebugAction">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
   <action id="ProfilerJumpToSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -131,9 +134,13 @@
   <action id="Sql.EditParameter">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="ToggleBookmark" />
   <action id="Vcs.Log.ShowTooltip">
     <keyboard-shortcut first-keystroke="ctrl j" />
     <mouse-shortcut keystroke="control button2" />
+  </action>
+  <action id="ViewBreakpoints">
+    <keyboard-shortcut first-keystroke="shift f3" />
   </action>
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
