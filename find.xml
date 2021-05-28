@@ -6,5 +6,6 @@
     <mask>*.yam</mask>
     <mask>*.xml</mask>
     <mask>*.php</mask>
+    <mask>*.yaml</mask>
   </component>
 </application>
