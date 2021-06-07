@@ -14,6 +14,7 @@
   </action>
   <action id="ActivateVersionControlToolWindow" />
   <action id="Arrangement.Rule.Edit" />
+  <action id="ChangesView.Move" />
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
@@ -21,6 +22,9 @@
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
+  <action id="Console.TableResult.SetDefault" />
+  <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ApplyRightSide" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
   <action id="EditSource">
@@ -80,6 +84,7 @@
   <action id="GotoNextError" />
   <action id="GotoSymbol" />
   <action id="GotoTest" />
+  <action id="Jdbc.OpenConsole.New" />
   <action id="Jdbc.OpenEditor.Data">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -93,12 +98,14 @@
   <action id="NavBar-navigate">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="NextEditorTab" />
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="meta alt o" />
   </action>
   <action id="PhpListenDebugAction">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
+  <action id="PreviousEditorTab" />
   <action id="ProfilerJumpToSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -139,6 +146,7 @@
     <keyboard-shortcut first-keystroke="ctrl j" />
     <mouse-shortcut keystroke="control button2" />
   </action>
+  <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="ViewBreakpoints">
     <keyboard-shortcut first-keystroke="shift f3" />
   </action>
