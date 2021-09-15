@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="IdNow" type="AUTO_DETECTED" />
       <mapping pattern="xdebug-toggle" type="AUTO_DETECTED" />
+      <mapping ext="neon" type="PLAIN_TEXT" />
       <mapping ext="htmltwig" type="PLAIN_TEXT" />
       <mapping ext="lock" type="PLAIN_TEXT" />
       <mapping ext="dist" type="YAML" />
