@@ -43,6 +43,9 @@
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
   <action id="FileChooserList.LevelUp" />
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="ctrl meta k" />
   </action>
@@ -84,6 +87,7 @@
   <action id="Jdbc.OpenEditor.Data">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="JumpToLastWindow" />
   <action id="NavBar-navigate">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
