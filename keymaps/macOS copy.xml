@@ -134,5 +134,8 @@
     <mouse-shortcut keystroke="control button2" />
   </action>
   <action id="Vcs.UpdateProject" />
+  <action id="ViewBreakpoints">
+    <keyboard-shortcut first-keystroke="shift f3" />
+  </action>
   <action id="XDebugger.SetValue" />
 </keymap>
