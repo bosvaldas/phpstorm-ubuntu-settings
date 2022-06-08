@@ -83,6 +83,7 @@
     <keyboard-shortcut first-keystroke="meta 9" />
   </action>
   <action id="GotoNextError" />
+  <action id="GotoSymbol" />
   <action id="GotoTest" />
   <action id="Jdbc.OpenEditor.Data">
     <keyboard-shortcut first-keystroke="f4" />
@@ -90,6 +91,9 @@
   <action id="JumpToLastWindow" />
   <action id="NavBar-navigate">
     <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="meta alt o" />
   </action>
   <action id="ProfilerJumpToSource">
     <keyboard-shortcut first-keystroke="f4" />
