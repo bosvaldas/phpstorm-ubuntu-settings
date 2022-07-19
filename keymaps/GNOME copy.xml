@@ -13,6 +13,9 @@
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
@@ -44,6 +47,7 @@
   <action id="EditorPageUpWithSelection" />
   <action id="EditorScrollDown" />
   <action id="EditorScrollUp" />
+  <action id="EditorSelectWord" />
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
   </action>
@@ -71,12 +75,15 @@
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="SmartSelect" />
   <action id="Table-scrollDownChangeSelection" />
   <action id="Table-scrollDownExtendSelection" />
   <action id="Table-scrollUpChangeSelection" />
   <action id="Table-startEditing" />
+  <action id="TableResult.GrowSelection" />
   <action id="Tree-scrollDownExtendSelection" />
   <action id="Tree-scrollUpExtendSelection" />
   <action id="Tree-startEditing" />
+  <action id="UsageFiltering.WriteAccess" />
   <action id="XDebugger.SetValue" />
 </keymap>
