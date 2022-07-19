@@ -1,5 +1,6 @@
 <application>
   <component name="PhpAutoImport" auto_import_file_scope="true" global_constant_behavior="PREFER_FQN" global_function_behavior="PREFER_FQN" />
+  <component name="PhpDebugGeneral" xdebug_resolve_breakpoints="false" />
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="52aee1df-f629-48c7-913e-a2ed3f41646c" name="PHP 8.0" home="/usr/local/Cellar/php/8.0.11_1/bin/php" debugger_id="php.debugger.XDebug" />
