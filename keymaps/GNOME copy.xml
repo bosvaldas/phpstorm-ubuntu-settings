@@ -54,6 +54,9 @@
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
+  </action>
   <action id="Git.Rename.Local.Branch">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
@@ -85,5 +88,8 @@
   <action id="Tree-scrollUpExtendSelection" />
   <action id="Tree-startEditing" />
   <action id="UsageFiltering.WriteAccess" />
+  <action id="ViewBreakpoints">
+    <keyboard-shortcut first-keystroke="shift f3" />
+  </action>
   <action id="XDebugger.SetValue" />
 </keymap>
