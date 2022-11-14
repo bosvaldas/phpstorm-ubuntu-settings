@@ -31,6 +31,9 @@
     <option name="ADD_CARETS_ON_DOUBLE_CTRL" value="false" />
     <option name="KEEP_TRAILING_SPACE_ON_CARET_LINE" value="false" />
   </component>
+  <component name="InlayHintsSettings">
+    <option name="lastViewedProviderKeyId" value="PHP.parameter.hints.old.php.show.names.for.all.args" />
+  </component>
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
