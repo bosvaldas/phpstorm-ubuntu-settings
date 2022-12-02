@@ -3,7 +3,9 @@
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
-  <action id="ActivateDebugToolWindow" />
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
   <action id="ActivateFindToolWindow" />
   <action id="ActivateProblemsViewToolWindow" />
   <action id="ActivateProjectToolWindow">
@@ -26,6 +28,7 @@
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
+  <action id="CopyElement" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
   <action id="EditSource" />
@@ -83,6 +86,7 @@
   <action id="GotoNextError" />
   <action id="GotoSymbol" />
   <action id="GotoTest" />
+  <action id="Graph.RouteEdges" />
   <action id="Jdbc.OpenEditor.Data" />
   <action id="JumpToLastWindow" />
   <action id="NavBar-navigate" />
