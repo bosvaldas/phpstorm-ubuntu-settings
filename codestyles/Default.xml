@@ -10,7 +10,6 @@
     <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
   </JSCodeStyleSettings>
   <PHPCodeStyleSettings>
-    <option name="CONCAT_SPACES" value="false" />
     <option name="COMMA_AFTER_LAST_ARRAY_ELEMENT" value="true" />
     <option name="VARIABLE_NAMING_STYLE" value="CAMEL_CASE" />
     <option name="BLANK_LINES_BEFORE_RETURN_STATEMENT" value="1" />
