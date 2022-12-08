@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="test" value="/** @test */&#10;public function should_$NAME$(): void&#10;{&#10;    &#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="test" value="/**&#10; * @return void&#10; */&#10;public function test$NAME$(): void&#10;{&#10;    &#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Class Member" value="true" />
