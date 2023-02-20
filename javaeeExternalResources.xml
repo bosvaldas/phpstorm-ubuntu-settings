@@ -1,7 +1,7 @@
 <application>
   <component name="ExternalResourceManagerImpl">
     <resource url="http://schema.phpunit.de/6.5/phpunit.xsd" location="$USER_HOME$/Library/Caches/JetBrains/PhpStorm2021.1/extResources/cba26384_phpunit.xsd" />
-    <resource url="http://static.spryker.com/schema-01.xsd" location="$USER_HOME$/.cache/JetBrains/PhpStorm2022.1/extResources/b1ae2e92_schema-01.xsd" />
+    <resource url="http://static.spryker.com/schema-01.xsd" location="$USER_HOME$/Library/Caches/JetBrains/PhpStorm2022.3/extResources/b1ae2e92_schema-01.xsd" />
     <resource url="https://schema.phpunit.de/9.3/phpunit.xsd" location="$USER_HOME$/Library/Caches/JetBrains/PhpStorm2021.1/extResources/e8546028_phpunit.xsd" />
     <resource url="https://schema.phpunit.de/9.5/phpunit.xsd" location="$USER_HOME$/Library/Caches/JetBrains/PhpStorm2022.1/extResources/c55a6d2a_phpunit.xsd" />
     <resource url="https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" location="$USER_HOME$/.cache/JetBrains/PhpStorm2022.1/extResources/dc946990_sitemap.xsd" />
