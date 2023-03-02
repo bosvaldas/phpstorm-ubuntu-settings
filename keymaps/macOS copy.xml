@@ -20,6 +20,10 @@
   </action>
   <action id="ActivateVersionControlToolWindow" />
   <action id="Arrangement.Rule.Edit" />
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+    <mouse-shortcut keystroke="button4" />
+  </action>
   <action id="BookmarksView.Rename" />
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
@@ -44,6 +48,10 @@
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
   <action id="FileChooserList.LevelUp" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+    <mouse-shortcut keystroke="button5" />
+  </action>
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="f12" />
   </action>
@@ -122,6 +130,12 @@
   <action id="Sql.EditParameter" />
   <action id="Table-startEditing" />
   <action id="ToggleBookmark" />
+  <action id="Tool_External Tools_csf-psr">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+  </action>
+  <action id="Tool_External Tools_csf-spryker">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+  </action>
   <action id="Tree-startEditing" />
   <action id="Vcs.Log.ShowTooltip">
     <keyboard-shortcut first-keystroke="ctrl j" />
