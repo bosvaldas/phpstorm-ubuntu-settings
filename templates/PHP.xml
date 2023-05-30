@@ -4,7 +4,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="//aaa" value="// Arrange&#10;$END$&#10;&#10;// Act&#10;&#10;// Assert&#10;" toReformat="true" toShortenFQNames="true">
+  <template name="//aaa" value="// Arrange&#10;$END$&#10;&#10;// Act&#10;&#10;// Assert&#10;" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
