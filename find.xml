@@ -13,5 +13,6 @@
     <mask>*.php</mask>
     <mask>*.js</mask>
     <mask>*.html,*.twig</mask>
+    <mask>*.t</mask>
   </component>
 </application>
