@@ -1,0 +1,22 @@
+<application>
+  <component name="StringManipulationState">
+    <option name="lastActionModel">
+      <UniversalActionModel>
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.increment.CreateSequenceAction" />
+        <option name="description" value="Keep first number, replace all other by incrementing. Carets without a selection will add a number." />
+        <option name="textWithMnemonic" value="Create Sequence" />
+      </UniversalActionModel>
+    </option>
+    <option name="sortSettingsMap">
+      <map>
+        <entry key="SortAction">
+          <value>
+            <SortSettings>
+              <option name="sortByGroups" value="true" />
+            </SortSettings>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

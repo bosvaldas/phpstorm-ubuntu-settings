@@ -1,0 +1,12 @@
+<templateSet group="PHP">
+  <template name="st" value="declare(strict_types=1);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="/aa" value="// Arrange&#10;$END$&#10;&#10;// Act&#10;&#10;// Assert&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
