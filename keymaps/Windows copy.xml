@@ -1,5 +1,8 @@
 <keymap version="1" name="Windows copy" parent="$default">
   <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="ActivateTerminalToolWindow">
@@ -23,12 +26,18 @@
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
   <action id="ContextHelp" />
+  <action id="DatabaseView.OpenFamilyAction" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
+  <action id="EditSource" />
   <action id="EditorSelectWord" />
+  <action id="ExternalSystem.OpenConfig" />
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
   <action id="Git.Rename.Local.Branch">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
@@ -61,6 +70,11 @@
   <action id="GotoBookmark6" />
   <action id="GotoNextError" />
   <action id="GotoTest" />
+  <action id="Jdbc.OpenEditor.Data" />
+  <action id="OpenBookmarkGroup" />
+  <action id="ProfilerJumpToSource" />
+  <action id="ProjectViewEditSource" />
+  <action id="RemoteHostView.EditSource" />
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
@@ -69,6 +83,7 @@
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="SmartSelect" />
+  <action id="Sql.EditParameter" />
   <action id="Table-startEditing" />
   <action id="TableResult.GrowSelection" />
   <action id="TableResult.SelectColumn" />
