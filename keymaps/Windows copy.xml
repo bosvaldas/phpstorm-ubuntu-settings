@@ -25,6 +25,9 @@
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
+  <action id="Console.TableResult.Reload">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
   <action id="ContextHelp" />
   <action id="DatabaseView.OpenFamilyAction" />
   <action id="DuplicatesForm.SendToLeft" />
