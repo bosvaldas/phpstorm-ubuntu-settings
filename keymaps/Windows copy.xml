@@ -1,0 +1,99 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
+  <action id="Arrangement.Rule.Edit" />
+  <action id="BookmarksView.Rename" />
+  <action id="ChangesView.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
+  <action id="Console.TableResult.GotoReferencedResult">
+    <mouse-shortcut keystroke="button1 doubleClick" />
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
+  <action id="ContextHelp" />
+  <action id="DatabaseView.OpenFamilyAction" />
+  <action id="DuplicatesForm.SendToLeft" />
+  <action id="DuplicatesForm.SendToRight" />
+  <action id="EditSource" />
+  <action id="EditorSelectWord" />
+  <action id="ExternalSystem.OpenConfig" />
+  <action id="FileChooser.GotoHome" />
+  <action id="FileChooser.GotoModule" />
+  <action id="FileChooser.GotoProject" />
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="Git.Rename.Local.Branch">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="Git.Reword.Commit">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="GoToTab1">
+    <keyboard-shortcut first-keystroke="ctrl 1" />
+  </action>
+  <action id="GoToTab2">
+    <keyboard-shortcut first-keystroke="ctrl 2" />
+  </action>
+  <action id="GoToTab3">
+    <keyboard-shortcut first-keystroke="ctrl 3" />
+  </action>
+  <action id="GoToTab4">
+    <keyboard-shortcut first-keystroke="ctrl 4" />
+  </action>
+  <action id="GoToTab5">
+    <keyboard-shortcut first-keystroke="ctrl 5" />
+  </action>
+  <action id="GoToTab6">
+    <keyboard-shortcut first-keystroke="ctrl 6" />
+  </action>
+  <action id="GotoBookmark1" />
+  <action id="GotoBookmark2" />
+  <action id="GotoBookmark3" />
+  <action id="GotoBookmark4" />
+  <action id="GotoBookmark5" />
+  <action id="GotoBookmark6" />
+  <action id="GotoNextError" />
+  <action id="GotoTest" />
+  <action id="Jdbc.OpenEditor.Data" />
+  <action id="JumpToLastWindow" />
+  <action id="OpenBookmarkGroup" />
+  <action id="ProfilerJumpToSource" />
+  <action id="ProjectViewEditSource" />
+  <action id="RemoteHostView.EditSource" />
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
+  <action id="ServiceView.ShowServices" />
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="SmartSelect" />
+  <action id="Sql.EditParameter" />
+  <action id="Table-startEditing" />
+  <action id="TableResult.GrowSelection" />
+  <action id="TableResult.SelectColumn" />
+  <action id="Terminal.DeletePreviousWord" />
+  <action id="Terminal.NewTab" />
+  <action id="Tree-startEditing" />
+  <action id="UsageFiltering.WriteAccess" />
+  <action id="XDebugger.SetValue" />
+</keymap>
