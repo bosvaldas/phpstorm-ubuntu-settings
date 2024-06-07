@@ -33,6 +33,16 @@
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
   <action id="EditSource" />
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="EditorLookupDown" />
+  <action id="EditorLookupUp" />
+  <action id="EditorScrollDown" />
+  <action id="EditorScrollUp" />
   <action id="EditorSelectWord" />
   <action id="ExternalSystem.OpenConfig" />
   <action id="FileChooser.GotoHome" />
@@ -79,6 +89,8 @@
   <action id="GotoTest" />
   <action id="Jdbc.OpenEditor.Data" />
   <action id="JumpToLastWindow" />
+  <action id="MethodOverloadSwitchDown" />
+  <action id="MethodOverloadSwitchUp" />
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
   </action>
@@ -88,6 +100,12 @@
   <action id="RemoteHostView.EditSource" />
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
+  <action id="SearchEverywhere.NavigateToNextGroup">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
   </action>
   <action id="ServiceView.ShowServices" />
   <action id="ShelvedChanges.Rename">
@@ -100,6 +118,11 @@
   <action id="TableResult.SelectColumn" />
   <action id="Terminal.DeletePreviousWord" />
   <action id="Terminal.NewTab" />
+  <action id="Terminal.SelectBlockAbove">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
+  <action id="Terminal.SelectLastBlock" />
+  <action id="Terminal.SelectPrompt" />
   <action id="Tree-startEditing" />
   <action id="UsageFiltering.WriteAccess" />
   <action id="XDebugger.SetValue" />
