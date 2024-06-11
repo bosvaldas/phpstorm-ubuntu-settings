@@ -48,9 +48,7 @@
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
-  <action id="FindNext">
-    <keyboard-shortcut first-keystroke="ctrl l" />
-  </action>
+  <action id="FindNext" />
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="f12" />
   </action>
@@ -85,7 +83,9 @@
   <action id="GotoBookmark5" />
   <action id="GotoBookmark6" />
   <action id="GotoFile" />
+  <action id="GotoLine" />
   <action id="GotoNextError" />
+  <action id="GotoRow" />
   <action id="GotoTest" />
   <action id="Jdbc.OpenEditor.Data" />
   <action id="JumpToLastWindow" />
@@ -106,6 +106,10 @@
   </action>
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="alt j" />
+    <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
   <action id="ServiceView.ShowServices" />
   <action id="ShelvedChanges.Rename">
