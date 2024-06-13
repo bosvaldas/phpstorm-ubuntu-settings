@@ -83,7 +83,9 @@
   <action id="GotoBookmark5" />
   <action id="GotoBookmark6" />
   <action id="GotoFile" />
-  <action id="GotoLine" />
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
   <action id="GotoNextError" />
   <action id="GotoRow" />
   <action id="GotoTest" />
