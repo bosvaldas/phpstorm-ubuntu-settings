@@ -8,6 +8,9 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
   <action id="Arrangement.Rule.Edit" />
   <action id="BookmarksView.Rename" />
   <action id="ChangesView.Rename">
@@ -29,6 +32,7 @@
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="ContextHelp" />
+  <action id="CopyElement" />
   <action id="DatabaseView.OpenFamilyAction" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
@@ -89,6 +93,7 @@
   <action id="GotoNextError" />
   <action id="GotoRow" />
   <action id="GotoTest" />
+  <action id="Graph.RouteEdges" />
   <action id="Jdbc.OpenEditor.Data" />
   <action id="JumpToLastWindow" />
   <action id="MethodOverloadSwitchDown" />
