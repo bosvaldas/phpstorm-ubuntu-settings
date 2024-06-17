@@ -136,5 +136,8 @@
   <action id="Terminal.SelectPrompt" />
   <action id="Tree-startEditing" />
   <action id="UsageFiltering.WriteAccess" />
+  <action id="ViewBreakpoints">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="XDebugger.SetValue" />
 </keymap>
