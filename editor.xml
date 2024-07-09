@@ -52,6 +52,9 @@
   <component name="InlayHintsSettings">
     <option name="lastViewedProviderKeyId" value="PHP.parameter.hints.old.php.show.names.for.all.args" />
   </component>
+  <component name="InlineCompletionOnboarding">
+    <option name="onboardingFinished" value="true" />
+  </component>
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
