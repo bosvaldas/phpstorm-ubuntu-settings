@@ -17,7 +17,6 @@
         <entry key="GridAggregator" value="false" />
         <entry key="GridPosition" value="false" />
         <entry key="LanguageServiceStatusBarWidget" value="false" />
-        <entry key="LineSeparator" value="false" />
         <entry key="ReadOnlyAttribute" value="false" />
         <entry key="TypeScriptInfo" value="false" />
         <entry key="php.debug.status.widget" value="false" />
