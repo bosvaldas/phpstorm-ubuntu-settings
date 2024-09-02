@@ -1,36 +1,46 @@
 <application>
-  <component name="FileTypeManager" version="18">
+  <component name="FileTypeManager" version="19">
     <extensionMap>
-      <mapping pattern="test" type="PLAIN_TEXT" />
-      <mapping pattern="BoxItemType" type="PLAIN_TEXT" />
-      <mapping pattern="CurrencySwitchController.php" type="PLAIN_TEXT" />
+      <mapping pattern="codecept" type="AUTO_DETECTED" />
+      <mapping pattern="IdNow" type="AUTO_DETECTED" />
+      <mapping pattern="xdebug-toggle" type="AUTO_DETECTED" />
+      <mapping pattern=".htakses" type="PLAIN_TEXT" />
+      <mapping pattern="tester" type="PLAIN_TEXT" />
       <mapping pattern="AddThisPlugin" type="PLAIN_TEXT" />
       <mapping pattern="testass" type="PLAIN_TEXT" />
-      <mapping pattern="socialPlugin.blade.php" type="PLAIN_TEXT" />
-      <mapping pattern="tester" type="PLAIN_TEXT" />
-      <mapping pattern="99cALH2H0Xl62VuzxozXjYFzmst78CSGpL93osG6" type="PLAIN_TEXT" />
       <mapping pattern="2tDvBEboZpjTPeVmp4crJ7N7bqPRnLQ1nwI9E8wr" type="PLAIN_TEXT" />
-      <mapping pattern="config" type="PLAIN_TEXT" />
-      <mapping pattern="ForwardRequestDestinationsController.php" type="PLAIN_TEXT" />
-      <mapping pattern=".htakses" type="PLAIN_TEXT" />
-      <mapping pattern="fucking_file" type="PLAIN_TEXT" />
+      <mapping pattern="socialPlugin.blade.php" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="CurrencySwitchController.php" type="PLAIN_TEXT" />
+      <mapping pattern="99cALH2H0Xl62VuzxozXjYFzmst78CSGpL93osG6" type="PLAIN_TEXT" />
+      <mapping pattern="BoxItemType" type="PLAIN_TEXT" />
       <mapping pattern="index_articles.blade.php" type="PLAIN_TEXT" />
+      <mapping pattern="ForwardRequestDestinationsController.php" type="PLAIN_TEXT" />
       <mapping pattern="bybiasliosas" type="PLAIN_TEXT" />
-      <mapping ext="stub" type="PLAIN_TEXT" />
-      <mapping ext="dist" type="PLAIN_TEXT" />
-      <mapping ext="woff" type="PLAIN_TEXT" />
+      <mapping pattern="fucking_file" type="PLAIN_TEXT" />
+      <mapping pattern="config" type="PLAIN_TEXT" />
+      <mapping ext="lock" type="PLAIN_TEXT" />
       <mapping ext="map" type="PLAIN_TEXT" />
+      <mapping ext="dist" type="PLAIN_TEXT" />
+      <mapping ext="stub" type="PLAIN_TEXT" />
+      <mapping ext="woff" type="PLAIN_TEXT" />
+      <mapping ext="htmltwig" type="PLAIN_TEXT" />
       <mapping pattern="blett" type="SQL" />
       <mapping pattern="blet" type="Shell Script" />
       <mapping pattern="runCron" type="Shell Script" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="bat" approved="true" type="Batch" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="dist" type="YAML" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
+      <removed_mapping ext="map" type="SourceMap" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
       <mapping ext="gradle.kts" type="Kotlin" />
