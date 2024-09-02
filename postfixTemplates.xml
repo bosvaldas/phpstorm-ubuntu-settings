@@ -6,7 +6,7 @@
     </template>
     <template id="tc@userDefined" key=".tc" provider="builtin.php" topmost="false">
       <conditions />
-      <template name="fakeKey" value="try {&#10;    $EXPR$;&#10;} catch (\Throwable $e) {&#10;    dd($e-&gt;getPrevious()-&gt;getMessage());&#10;}" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="try {&#10;    $EXPR$;&#10;} catch (\Throwable $e) {&#10;    dd($e-&gt;getPrevious()-&gt;getMessage());&#10;}" description="" toReformat="true" toShortenFQNames="true" />
     </template>
   </component>
   <component name="PostfixTemplatesSettings">
