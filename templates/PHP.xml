@@ -1,10 +1,66 @@
 <templateSet group="PHP">
-  <template name="st" value="declare(strict_types=1);" description="" toReformat="false" toShortenFQNames="true">
+  <template name="st" value="declare(strict_types=1);" description="strict types" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="/aa" value="// Arrange&#10;$END$&#10;&#10;// Act&#10;&#10;// Assert&#10;" description="" toReformat="true" toShortenFQNames="true">
+  <template name="Route::test" value="Route::get('test', function () {&#10;    &#10;});" description="test" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="qry" value="static function ($query) {&#10;    $query-&gt;$END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="__con" value="public function __construct($DEPENDENCY$)&#10;{&#10;}" description="public function __construct" toReformat="false" toShortenFQNames="true">
+    <variable name="DEPENDENCY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="pubfreq" value="public function $name$($END$ $request): JsonResponse&#10;{&#10;    &#10;&#10;    return response()-&gt;json();&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="clo" value="static function ($PARAM$) {&#10;    $END$&#10;}" description="closure" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="join" value="static function (JoinClause $join) {&#10;    $join-&gt;on('$FIRST$', '=', '$END$');&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="FIRST" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="qrys" value="function ($query) {&#10;    $query-&gt;$END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="itemtoqu" value="-&gt;join('carts', static function (JoinClause $join) {&#10;    $join&#10;        -&gt;on('carts.id', '=', 'items.cart_id')&#10;        -&gt;where('carts.deleted_at');&#10;})&#10;-&gt;join('qu', static function (JoinClause $join) {&#10;    $join&#10;        -&gt;on('qu.id', '=', 'carts.qu_id')&#10;        -&gt;where('qu.deleted_at');&#10;})&#10;-&gt;join('quote_config', static function (JoinClause $join) {&#10;    $join&#10;        -&gt;on('quote_config.quote_id', '=', 'qu.id')&#10;        -&gt;where('quote_config.deleted_at');&#10;})&#10;-&gt;join('quote_groups', static function (JoinClause $join) {&#10;    $join&#10;        -&gt;on('quote_groups.id', '=', 'qu.quote_group_id')&#10;        -&gt;where('quote_groups.deleted_at');&#10;})" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="log" value="logger($END$);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="joininvoice" value="-&gt;join('invoices', static function ($TYPE$$join) {&#10;    $join&#10;        -&gt;on('invoices.rel_id', '$REL$')&#10;        -&gt;where('invoices.rel_type', $END$);&#10;})" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="JoinClause " alwaysStopAt="true" />
+    <variable name="REL" expression="" defaultValue="qu.id" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="reqper" value="return null !== $this-&gt;input('gate_disabled') || Gate::allows('$END$');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>

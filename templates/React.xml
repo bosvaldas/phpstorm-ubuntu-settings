@@ -1,0 +1,4 @@
+<templateSet group="React">
+  <template name="cwr" value="componentWillReceiveProps(nextProps) {&#10; $END$&#10;}&#10;" description="Invoked when a component is receiving new props. This method is not called for the initial render. [DEPRECATION NOTE]: This method is deprecated in React 16.3" toReformat="true" toShortenFQNames="true" />
+  <template name="cwup" value="componentWillUpdate(nextProps, nextState) {&#10; $END$&#10;}&#10;" description="Invoked immediately before rendering when new props or state are being received. [DEPRECATION NOTE]: This method is deprecated in React 16.3" toReformat="true" toShortenFQNames="true" />
+</templateSet>

@@ -1,0 +1,51 @@
+<templateSet group="JavaScript">
+  <template name="req" value="axios&#10;    .$METHOD$('$URL$')&#10;    .then(res =&gt; {&#10;        console.log(res.data);&#10;    })&#10;    .catch(err =&gt; {&#10;        console.log(err, err.response);&#10;    });" description="axios request" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="newpromise" value="return new Promise(resolve =&gt; {&#10;    $END$&#10;});" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="addremove" value="const index = this.$VAR$.indexOf($VAL$);&#10;if (-1 === index) {&#10;    this.$VAR$.push($VAL$);&#10;} else {&#10;    this.$VAR$.splice(index, 1);&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="forlen" value="for (let $i$ = 0, $len$ = $var$.length; $i$ &lt; $len$; $i$++) {&#10;    $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="i" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="len" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="err" value="console.error($END$)" description="console.error()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="isarr" value="Array.isArray($END$)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="hp" value="Object.prototype.hasOwnProperty.call($OBJECT$, $END$)" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="OBJECT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="nhp" value="!Object.prototype.hasOwnProperty.call($OBJECT$, $END$)" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="OBJECT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

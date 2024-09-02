@@ -1,0 +1,7 @@
+<application>
+  <component name="GithubAccounts">
+    <account id="d4f1fa82-539f-4f86-b996-c18f6afff622" name="ghamp">
+      <server host="github.com" />
+    </account>
+  </component>
+</application>

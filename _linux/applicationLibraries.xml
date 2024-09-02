@@ -1,0 +1,50 @@
+<application>
+  <component name="libraryTable">
+    <library name="all" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_use.fontawesome.com_releases_v5.2.0_css_all.css" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_use.fontawesome.com_releases_v5.2.0_css_all.css" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="infinity" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_airbnb.io_infinity_infinity.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_airbnb.io_infinity_infinity.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="js.cookie" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_js-cookie@2_src_js.cookie.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_js-cookie@2_src_js.cookie.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="leaflet" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_leaflet@1.7.1_dist_leaflet.css" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_leaflet@1.7.1_dist_leaflet.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_leaflet@1.7.1_dist_leaflet.css" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_leaflet@1.7.1_dist_leaflet.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+  </component>
+</application>
