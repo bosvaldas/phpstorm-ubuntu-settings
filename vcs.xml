@@ -1,27 +1,4 @@
 <application>
-  <component name="GitRememberedInputs">
-    <option name="visitedUrls">
-      <list>
-        <UrlAndUserName>
-          <option name="url" value="http://bitbucket.org" />
-          <option name="userName" value="osvaldas-beniusis" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://osvaldas-beniusis@bitbucket.org/scodingdevs/cdm.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://osvaldas-beniusis@bitbucket.org/scodingdevs/paycardealer.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://gitlab.com" />
-          <option name="userName" value="osvaldas.scoding@gmail.com" />
-        </UrlAndUserName>
-      </list>
-    </option>
-    <option name="cloneParentDir" value="/Applications/MAMP/htdocs" />
-  </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ID_ORDER">
       <list>
@@ -29,7 +6,11 @@
         <option value="Default.Subject" />
         <option value="Default.Author" />
         <option value="Default.Date" />
+        <option value="GitHub.CommitStatus" />
       </list>
     </option>
+  </component>
+  <component name="VcsApplicationSettings">
+    <option name="SHOW_LST_GUTTER_MARKERS" value="false" />
   </component>
 </application>

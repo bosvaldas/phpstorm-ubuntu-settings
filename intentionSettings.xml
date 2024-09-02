@@ -1,9 +1,0 @@
-<application>
-  <component name="IntentionManagerSettings">
-    <ignoreAction name="PHP/Join comma-separated values into a single line" />
-    <ignoreAction name="Other/Flip ','" />
-    <ignoreAction name="PHP/Replace with alias" />
-    <ignoreAction name="PHP/Generate PHPDoc for function" />
-    <ignoreAction name="PHP/Import Class as Alias" />
-  </component>
-</application>

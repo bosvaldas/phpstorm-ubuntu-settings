@@ -1,0 +1,30 @@
+<toolSet name="External Tools">
+  <tool name="cs-sniffer-spryker" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/opt/homebrew/Cellar/php@7.4/7.4.33_2/bin/php" />
+      <option name="PARAMETERS" value="vendor/squizlabs/php_codesniffer/bin/phpcs --standard=Spryker -p $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="cs-sniffer-psr" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/opt/homebrew/Cellar/php@7.4/7.4.33_2/bin/php" />
+      <option name="PARAMETERS" value="vendor/squizlabs/php_codesniffer/bin/phpcs --standard=PSR12 -p $FilePath$ --error-severity=1 --warning-severity=8 --extensions=php" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="csf-spryker" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/opt/homebrew/Cellar/php@7.4/7.4.33_2/bin/php" />
+      <option name="PARAMETERS" value="vendor/squizlabs/php_codesniffer/bin/phpcbf --standard=Spryker -p $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="csf-psr" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/opt/homebrew/Cellar/php@7.4/7.4.33_2/bin/php" />
+      <option name="PARAMETERS" value="vendor/squizlabs/php_codesniffer/bin/phpcbf --standard=PSR12 -p $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

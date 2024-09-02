@@ -1,7 +1,0 @@
-<templateSet group="Twig">
-  <template name="dcon" value="{{ dump(_context) }}" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="Twig" value="true" />
-    </context>
-  </template>
-</templateSet>
