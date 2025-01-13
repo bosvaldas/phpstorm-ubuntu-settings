@@ -4,6 +4,8 @@
       <list>
         <option value="org.intellij.plugins.postcss" />
         <option value="com.jetbrains.plugins.jade" />
+        <option value="com.intellij.aqua" />
+        <option value="com.intellij.lang.jsgraphql" />
       </list>
     </option>
   </component>
