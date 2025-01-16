@@ -2,9 +2,9 @@
   <component name="StringManipulationState">
     <option name="lastActionModel">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.ToSnakeCaseAction" />
-        <option name="description" value="To snake_case" />
-        <option name="textWithMnemonic" value="To snake_case" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.swap.SwapCharacterToFromIntAction" />
+        <option name="description" value="Switching between an int value and either Unicode character escape sequence or Octal character escape sequence (according to settings)." />
+        <option name="textWithMnemonic" value="Convert Between Char and Int" />
       </UniversalActionModel>
     </option>
     <option name="sortSettingsMap">
