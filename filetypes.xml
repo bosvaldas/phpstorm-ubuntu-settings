@@ -20,11 +20,11 @@
       <mapping pattern="bybiasliosas" type="PLAIN_TEXT" />
       <mapping pattern="fucking_file" type="PLAIN_TEXT" />
       <mapping pattern="config" type="PLAIN_TEXT" />
-      <mapping ext="stub" type="PLAIN_TEXT" />
-      <mapping ext="htmltwig" type="PLAIN_TEXT" />
       <mapping ext="lock" type="PLAIN_TEXT" />
       <mapping ext="map" type="PLAIN_TEXT" />
+      <mapping ext="stub" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
+      <mapping ext="htmltwig" type="PLAIN_TEXT" />
       <mapping pattern="blett" type="SQL" />
       <mapping pattern="blet" type="Shell Script" />
       <mapping pattern="runCron" type="Shell Script" />
