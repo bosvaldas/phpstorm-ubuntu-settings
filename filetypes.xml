@@ -24,6 +24,7 @@
       <mapping ext="map" type="PLAIN_TEXT" />
       <mapping ext="stub" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
+      <mapping ext="crt" type="PLAIN_TEXT" />
       <mapping ext="htmltwig" type="PLAIN_TEXT" />
       <mapping pattern="blett" type="SQL" />
       <mapping pattern="blet" type="Shell Script" />
