@@ -4,6 +4,7 @@
       <mapping pattern="codecept" type="AUTO_DETECTED" />
       <mapping pattern="IdNow" type="AUTO_DETECTED" />
       <mapping pattern="xdebug-toggle" type="AUTO_DETECTED" />
+      <mapping pattern="rating_calculator" type="AUTO_DETECTED" />
       <mapping pattern=".htakses" type="PLAIN_TEXT" />
       <mapping pattern="tester" type="PLAIN_TEXT" />
       <mapping pattern="AddThisPlugin" type="PLAIN_TEXT" />
