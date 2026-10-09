@@ -1,0 +1,11 @@
+<application>
+  <component name="DoNotAskAppManager">
+    <option name="idToDisplayName">
+      <map>
+        <entry key="File Watcher Messages" value="File system synchronization issues detected" />
+        <entry key="NEON Pro Group" value="NEON pro suggestion" />
+        <entry key="Run 'composer install'" value="Composer 'install' command suggested" />
+      </map>
+    </option>
+  </component>
+</application>
